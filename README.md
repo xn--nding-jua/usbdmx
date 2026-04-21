@@ -1,13 +1,6 @@
-usbdmx - Linux/Mac/Windows-Driver for [FX5 USB DMX Interface](http://www.fx5.de/)
-and [Digital Enlightenment](http://www.digital-enlightenment.de).
+usbdmx - Linux-Driver for DMX512-Interface based on [Digital Enlightenment](http://www.digital-enlightenment.de) or FX5
 
-BSD-License. API compatible with
-original Windows-Drivers usbdmx.dll and (!) usbdmxsi.dll
-
-To use the interface without root-privileges:
-```
-$ sudo cp 50-usbdmx.rules /etc/udev/rules.d/
-```
+BSD-License. API compatible with original Windows-Drivers usbdmx.dll and (!) usbdmxsi.dll
 
 To use the non-static-version "usbdmx_example" or "simple_example":
 ```
